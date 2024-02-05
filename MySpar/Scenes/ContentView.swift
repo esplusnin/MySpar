@@ -1,14 +1,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-            VStack {
-                GoodDetailNavigationView()
-                
-                ScrollView {
-                GoodPresentationView()
-                GoodDescriptionView()
-                Spacer()
+        VStack {
+            GoodDetailNavigationView()
+            
+            ScrollView {
+                VStack(spacing: 20) {
+                    GoodPresentationView()
+                    
+                    GoodDescriptionView()
+                    
+                    GoodParametersView()
+                }
             }
         }
     }

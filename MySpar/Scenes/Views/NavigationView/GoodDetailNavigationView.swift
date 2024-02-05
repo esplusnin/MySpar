@@ -56,6 +56,7 @@ private struct NavigationSymbol: ViewModifier {
     // MARK: - Constants and Variables:
     private let baseFontSize: CGFloat = 60
     
+    // MARK: - UI:
     func body(content: Content) -> some View {
         content
             .frame(width: UIConstants.baseSide,
@@ -66,7 +67,7 @@ private struct NavigationSymbol: ViewModifier {
     }
 }
 
-// MARK: - Modifiers extensions:
+// MARK: - Modifiers Extensions:
 private extension View {
     func setupNavigationSymbol() -> some View {
         modifier(NavigationSymbol())
