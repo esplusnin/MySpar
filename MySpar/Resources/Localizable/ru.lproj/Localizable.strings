@@ -33,7 +33,7 @@
 // MARK: - Reviews View:
 "reviewsListView.title" = "Отзывы";
 "reviewsListView.allReviews" = "Все 152";
-"reviewsListView.title" = "Оставить отзыв";
+"reviewsListView.makeReview" = "Оставить отзыв";
 
 // MARK: - Review
 "reviewsView.name" = "Александр В.";

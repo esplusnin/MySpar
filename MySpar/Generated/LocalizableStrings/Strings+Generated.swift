@@ -70,7 +70,9 @@ internal enum L10n {
     /// Все 152
     internal static let allReviews = L10n.tr("Localizable", "reviewsListView.allReviews", fallback: "Все 152")
     /// Оставить отзыв
-    internal static let title = L10n.tr("Localizable", "reviewsListView.title", fallback: "Оставить отзыв")
+    internal static let makeReview = L10n.tr("Localizable", "reviewsListView.makeReview", fallback: "Оставить отзыв")
+    /// Отзывы
+    internal static let title = L10n.tr("Localizable", "reviewsListView.title", fallback: "Отзывы")
   }
   internal enum ReviewsView {
     /// 7 мая 2021

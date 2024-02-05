@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E29C7E22B71427600647D9F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E12B71427600647D9F /* ReviewView.swift */; };
+		7E29C7E22B71427600647D9F /* ReviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E12B71427600647D9F /* ReviewCellView.swift */; };
+		7E29C7E52B716CE300647D9F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E42B716CE300647D9F /* ReviewView.swift */; };
 		7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B032B70BA6D00077E3F /* MySparApp.swift */; };
 		7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B052B70BA6D00077E3F /* ContentView.swift */; };
 		7E645B0B2B70BA7100077E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B0A2B70BA7100077E3F /* Preview Assets.xcassets */; };
@@ -30,7 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E29C7E12B71427600647D9F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		7E29C7E12B71427600647D9F /* ReviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCellView.swift; sourceTree = "<group>"; };
+		7E29C7E42B716CE300647D9F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		7E645B002B70BA6D00077E3F /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E645B032B70BA6D00077E3F /* MySparApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparApp.swift; sourceTree = "<group>"; };
 		7E645B052B70BA6D00077E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E29C7E32B716C8800647D9F /* ReviewView */ = {
+			isa = PBXGroup;
+			children = (
+				7E29C7E12B71427600647D9F /* ReviewCellView.swift */,
+				7E29C7E42B716CE300647D9F /* ReviewView.swift */,
+			);
+			path = ReviewView;
+			sourceTree = "<group>";
+		};
 		7E645AF72B70BA6D00077E3F = {
 			isa = PBXGroup;
 			children = (
@@ -184,10 +195,10 @@
 			children = (
 				7E645B3F2B70D4DE00077E3F /* GoodPresentationView */,
 				7E645B3E2B70D4D300077E3F /* NavigationView */,
+				7E29C7E32B716C8800647D9F /* ReviewView */,
 				7E645B4E2B71316D00077E3F /* GoodParametersView.swift */,
 				7E645B3C2B70D13000077E3F /* SeparatorView.swift */,
 				7E645B4C2B7108DF00077E3F /* GoodDescriptionView.swift */,
-				7E29C7E12B71427600647D9F /* ReviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,12 +352,13 @@
 				7E645B352B70C56400077E3F /* Resources.swift in Sources */,
 				7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */,
 				7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */,
-				7E29C7E22B71427600647D9F /* ReviewView.swift in Sources */,
+				7E29C7E22B71427600647D9F /* ReviewCellView.swift in Sources */,
 				7E645B322B70C52300077E3F /* GoodDetailNavigationView.swift in Sources */,
 				7E645B4F2B71316D00077E3F /* GoodParametersView.swift in Sources */,
 				7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */,
 				7E645B462B71003800077E3F /* RatingStackView.swift in Sources */,
 				7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */,
+				7E29C7E52B716CE300647D9F /* ReviewView.swift in Sources */,
 				7E645B4D2B7108DF00077E3F /* GoodDescriptionView.swift in Sources */,
 				7E645B492B71035600077E3F /* UIConstants.swift in Sources */,
 			);

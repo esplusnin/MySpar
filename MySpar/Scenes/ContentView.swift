@@ -13,6 +13,8 @@ struct ContentView: View {
                     GoodDescriptionView()
                     
                     GoodParametersView()
+                    
+                    ReviewView()
                 }
             }
         }

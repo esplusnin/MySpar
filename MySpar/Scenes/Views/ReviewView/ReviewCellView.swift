@@ -1,9 +1,9 @@
 import SwiftUI
 
-struct ReviewView: View {
+struct ReviewCellView: View {
     
     // MARK: - Constans and Variables:
-    private let width: CGFloat = 300
+    private let width: CGFloat = 250
     private let height: CGFloat = 200
     private let colorOpacity: CGFloat = 0.15
     private let cornerRadius: CGFloat = 15
@@ -46,5 +46,5 @@ struct ReviewView: View {
 }
 
 #Preview {
-    ReviewView()
+    ReviewCellView()
 }
