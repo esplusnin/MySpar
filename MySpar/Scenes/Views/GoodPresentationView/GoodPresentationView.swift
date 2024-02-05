@@ -11,16 +11,17 @@ struct GoodPresentationView: View {
         VStack {
             HStack {
                 GoodLoyaltyLabel()
+                    .padding(.leading)
                 
                 Spacer()
             }
-            .padding(.leading, loyaltyLabelLeadingInset)
             
             Image(.sparGood)
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: imageHeight)
             
             RatingStackView()
+                .padding(.horizontal)
         }
     }
 }

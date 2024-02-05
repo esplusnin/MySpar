@@ -14,6 +14,17 @@ internal enum L10n {
     /// -5%
     internal static let title = L10n.tr("Localizable", "discountLabelView.title", fallback: "-5%")
   }
+  internal enum GoodDescriptionView {
+    /// Испания, Риоха
+    internal static let country = L10n.tr("Localizable", "goodDescriptionView.country", fallback: "Испания, Риоха")
+    /// Флавоноиды липового цвета обладают противовоспалительным действием, способствуют укреплению стенки сосудов
+    internal static let description = L10n.tr("Localizable", "goodDescriptionView.description", fallback: "Флавоноиды липового цвета обладают противовоспалительным действием, способствуют укреплению стенки сосудов")
+    /// Описание
+    internal static let descriptionTitle = L10n.tr("Localizable", "goodDescriptionView.descriptionTitle", fallback: "Описание")
+    /// Добавка "Липа"
+    /// к чаю 200г
+    internal static let title = L10n.tr("Localizable", "goodDescriptionView.title", fallback: "Добавка \"Липа\"\nк чаю 200г")
+  }
   internal enum GoodLoyaltyLabel {
     /// Цена по карте
     internal static let title = L10n.tr("Localizable", "goodLoyaltyLabel.title", fallback: "Цена по карте")
