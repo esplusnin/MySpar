@@ -66,6 +66,20 @@ internal enum L10n {
     /// 19 отзывов
     internal static let reviewAmount = L10n.tr("Localizable", "ratingStackView.reviewAmount", fallback: "19 отзывов")
   }
+  internal enum ReviewsListView {
+    /// Все 152
+    internal static let allReviews = L10n.tr("Localizable", "reviewsListView.allReviews", fallback: "Все 152")
+    /// Оставить отзыв
+    internal static let title = L10n.tr("Localizable", "reviewsListView.title", fallback: "Оставить отзыв")
+  }
+  internal enum ReviewsView {
+    /// 7 мая 2021
+    internal static let date = L10n.tr("Localizable", "reviewsView.date", fallback: "7 мая 2021")
+    /// Хорошая добавка, мне очень понравилась! Хочу, что бы все добавки были такими!
+    internal static let description = L10n.tr("Localizable", "reviewsView.description", fallback: "Хорошая добавка, мне очень понравилась! Хочу, что бы все добавки были такими!")
+    /// Александр В.
+    internal static let name = L10n.tr("Localizable", "reviewsView.name", fallback: "Александр В.")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

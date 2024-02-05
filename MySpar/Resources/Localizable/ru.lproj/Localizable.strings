@@ -29,3 +29,13 @@
 "goodParameters.proteinValue" = "1,3 г";
 "goodParameters.carbonatesValue" = "3,3 г";
 "goodParameters.stumbString" = "..........................................................................................";
+
+// MARK: - Reviews View:
+"reviewsListView.title" = "Отзывы";
+"reviewsListView.allReviews" = "Все 152";
+"reviewsListView.title" = "Оставить отзыв";
+
+// MARK: - Review
+"reviewsView.name" = "Александр В.";
+"reviewsView.date" = "7 мая 2021";
+"reviewsView.description" = "Хорошая добавка, мне очень понравилась! Хочу, что бы все добавки были такими!";
