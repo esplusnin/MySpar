@@ -7,3 +7,10 @@
 // MARK: - Rating Stack View:
 "ratingStackView.rate" = "4.1";
 "ratingStackView.reviewAmount" = "19 отзывов";
+
+// MARK: - Good Description View:
+"goodDescriptionView.title" = "Добавка \"Липа\"\nк чаю 200г";
+"goodDescriptionView.country" = "Испания, Риоха";
+"goodDescriptionView.descriptionTitle" = "Описание";
+"goodDescriptionView.description" = "Флавоноиды липового цвета обладают противовоспалительным действием, способствуют укреплению стенки сосудов";
+

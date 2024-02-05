@@ -24,7 +24,6 @@ struct RatingStackView: View {
             
             DiscountLabelView()
         }
-        .padding(.horizontal)
     }
 }
 
