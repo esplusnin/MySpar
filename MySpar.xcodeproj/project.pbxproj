@@ -25,6 +25,7 @@
 		7E645B492B71035600077E3F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B482B71035600077E3F /* UIConstants.swift */; };
 		7E645B4B2B71062800077E3F /* GoodPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B4A2B71062800077E3F /* GoodPresentationView.swift */; };
 		7E645B4D2B7108DF00077E3F /* GoodDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B4C2B7108DF00077E3F /* GoodDescriptionView.swift */; };
+		7E645B4F2B71316D00077E3F /* GoodParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B4E2B71316D00077E3F /* GoodParametersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		7E645B482B71035600077E3F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7E645B4A2B71062800077E3F /* GoodPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodPresentationView.swift; sourceTree = "<group>"; };
 		7E645B4C2B7108DF00077E3F /* GoodDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDescriptionView.swift; sourceTree = "<group>"; };
+		7E645B4E2B71316D00077E3F /* GoodParametersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodParametersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			children = (
 				7E645B3F2B70D4DE00077E3F /* GoodPresentationView */,
 				7E645B3E2B70D4D300077E3F /* NavigationView */,
+				7E645B4E2B71316D00077E3F /* GoodParametersView.swift */,
 				7E645B3C2B70D13000077E3F /* SeparatorView.swift */,
 				7E645B4C2B7108DF00077E3F /* GoodDescriptionView.swift */,
 			);
@@ -336,6 +339,7 @@
 				7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */,
 				7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */,
 				7E645B322B70C52300077E3F /* GoodDetailNavigationView.swift in Sources */,
+				7E645B4F2B71316D00077E3F /* GoodParametersView.swift in Sources */,
 				7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */,
 				7E645B462B71003800077E3F /* RatingStackView.swift in Sources */,
 				7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */,

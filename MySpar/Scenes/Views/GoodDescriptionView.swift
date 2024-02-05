@@ -21,11 +21,13 @@ struct GoodDescriptionView: View {
                 Text(L10n.GoodDescriptionView.country)
                     .font(.bodyRegular)
             }
+            
             Text(L10n.GoodDescriptionView.descriptionTitle)
                 .font(.mediumTitle)
             
             Text(L10n.GoodDescriptionView.description)
                 .font(.bodyRegular)
+                .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(.horizontal)
     }
