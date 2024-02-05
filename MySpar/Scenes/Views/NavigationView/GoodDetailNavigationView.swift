@@ -41,7 +41,7 @@ struct GoodDetailNavigationView: View {
             .padding(.horizontal)
             .padding(.vertical, verticalInset)
             
-            SeparatorView()            
+            SeparatorView()
         }
     }
 }

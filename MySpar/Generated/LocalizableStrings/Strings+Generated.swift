@@ -10,6 +10,10 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
+  internal enum DiscountLabelView {
+    /// -5%
+    internal static let title = L10n.tr("Localizable", "discountLabelView.title", fallback: "-5%")
+  }
   internal enum GoodLoyaltyLabel {
     /// Цена по карте
     internal static let title = L10n.tr("Localizable", "goodLoyaltyLabel.title", fallback: "Цена по карте")

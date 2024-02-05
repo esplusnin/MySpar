@@ -1,2 +1,5 @@
 // MARK: - Good Loyalty Label:
 "goodLoyaltyLabel.title" = "Цена по карте";
+
+// MARK: - Discount Label View:
+"discountLabelView.title" = "-5%";

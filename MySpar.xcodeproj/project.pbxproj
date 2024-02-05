@@ -20,6 +20,7 @@
 		7E645B352B70C56400077E3F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B342B70C56400077E3F /* Resources.swift */; };
 		7E645B3D2B70D13000077E3F /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B3C2B70D13000077E3F /* SeparatorView.swift */; };
 		7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */; };
+		7E645B442B70FB5200077E3F /* DiscountLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B432B70FB5200077E3F /* DiscountLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7E645B342B70C56400077E3F /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		7E645B3C2B70D13000077E3F /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodLoyaltyLabel.swift; sourceTree = "<group>"; };
+		7E645B432B70FB5200077E3F /* DiscountLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		7E645B332B70C52700077E3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7E645B422B70FB1E00077E3F /* RatingStackView */,
 				7E645B3F2B70D4DE00077E3F /* GoodPresentationView */,
 				7E645B3E2B70D4D300077E3F /* NavigationView */,
 				7E645B3C2B70D13000077E3F /* SeparatorView.swift */,
@@ -188,6 +191,14 @@
 				7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */,
 			);
 			path = GoodPresentationView;
+			sourceTree = "<group>";
+		};
+		7E645B422B70FB1E00077E3F /* RatingStackView */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B432B70FB5200077E3F /* DiscountLabelView.swift */,
+			);
+			path = RatingStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E645B442B70FB5200077E3F /* DiscountLabelView.swift in Sources */,
 				7E645B302B70C2C900077E3F /* UIFont + Extension.swift in Sources */,
 				7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */,
 				7E645B3D2B70D13000077E3F /* SeparatorView.swift in Sources */,
