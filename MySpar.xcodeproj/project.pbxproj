@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B032B70BA6D00077E3F /* MySparApp.swift */; };
 		7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B052B70BA6D00077E3F /* ContentView.swift */; };
-		7E645B082B70BA7100077E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B072B70BA7100077E3F /* Assets.xcassets */; };
 		7E645B0B2B70BA7100077E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B0A2B70BA7100077E3F /* Preview Assets.xcassets */; };
+		7E645B1C2B70BEEA00077E3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B1E2B70BEEA00077E3F /* Localizable.strings */; };
+		7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B1F2B70BF4100077E3F /* Strings+Generated.swift */; };
+		7E645B232B70BFA200077E3F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B222B70BFA200077E3F /* Colors.xcassets */; };
+		7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B272B70C10E00077E3F /* XCAssets+Generated.swift */; };
+		7E645B2C2B70C1C600077E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B072B70BA7100077E3F /* Assets.xcassets */; };
+		7E645B302B70C2C900077E3F /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B2F2B70C2C900077E3F /* UIFont + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7E645B052B70BA6D00077E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E645B072B70BA7100077E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E645B0A2B70BA7100077E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E645B1D2B70BEEA00077E3F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E645B1F2B70BF4100077E3F /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		7E645B222B70BFA200077E3F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7E645B272B70C10E00077E3F /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		7E645B2F2B70C2C900077E3F /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,11 @@
 		7E645B022B70BA6D00077E3F /* MySpar */ = {
 			isa = PBXGroup;
 			children = (
-				7E645B032B70BA6D00077E3F /* MySparApp.swift */,
-				7E645B052B70BA6D00077E3F /* ContentView.swift */,
-				7E645B072B70BA7100077E3F /* Assets.xcassets */,
+				7E645B122B70BD1800077E3F /* App */,
+				7E645B142B70BD5100077E3F /* Generated */,
+				7E645B112B70BD0F00077E3F /* Scenes */,
+				7E645B132B70BD3200077E3F /* Resources */,
+				7E645B2E2B70C2B800077E3F /* Extensions */,
 				7E645B092B70BA7100077E3F /* Preview Content */,
 			);
 			path = MySpar;
@@ -67,6 +79,81 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7E645B112B70BD0F00077E3F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B052B70BA6D00077E3F /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7E645B122B70BD1800077E3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B032B70BA6D00077E3F /* MySparApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7E645B132B70BD3200077E3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B212B70BF9800077E3F /* Colors */,
+				7E645B172B70BE3B00077E3F /* Localizable */,
+				7E645B072B70BA7100077E3F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E645B142B70BD5100077E3F /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B242B70C09300077E3F /* Colors */,
+				7E645B162B70BE2D00077E3F /* LocalizableStrings */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7E645B162B70BE2D00077E3F /* LocalizableStrings */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B1F2B70BF4100077E3F /* Strings+Generated.swift */,
+			);
+			path = LocalizableStrings;
+			sourceTree = "<group>";
+		};
+		7E645B172B70BE3B00077E3F /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B1E2B70BEEA00077E3F /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		7E645B212B70BF9800077E3F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B222B70BFA200077E3F /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		7E645B242B70C09300077E3F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B272B70C10E00077E3F /* XCAssets+Generated.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		7E645B2E2B70C2B800077E3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B2F2B70C2C900077E3F /* UIFont + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +161,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E645B0E2B70BA7100077E3F /* Build configuration list for PBXNativeTarget "MySpar" */;
 			buildPhases = (
+				7E645B2D2B70C1ED00077E3F /* Swiftlint */,
+				7E645B152B70BD9200077E3F /* SwiftGen */,
 				7E645AFC2B70BA6D00077E3F /* Sources */,
 				7E645AFD2B70BA6D00077E3F /* Frameworks */,
 				7E645AFE2B70BA6D00077E3F /* Resources */,
@@ -104,11 +193,10 @@
 			};
 			buildConfigurationList = 7E645AFB2B70BA6D00077E3F /* Build configuration list for PBXProject "MySpar" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
+				ru,
 			);
 			mainGroup = 7E645AF72B70BA6D00077E3F;
 			productRefGroup = 7E645B012B70BA6D00077E3F /* Products */;
@@ -125,24 +213,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E645B2C2B70C1C600077E3F /* Assets.xcassets in Resources */,
 				7E645B0B2B70BA7100077E3F /* Preview Assets.xcassets in Resources */,
-				7E645B082B70BA7100077E3F /* Assets.xcassets in Resources */,
+				7E645B232B70BFA200077E3F /* Colors.xcassets in Resources */,
+				7E645B1C2B70BEEA00077E3F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E645B152B70BD9200077E3F /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftgen; then\n    swiftgen\nelse\n  echo \"warning: swiftgen not installed\"\nfi\n";
+		};
+		7E645B2D2B70C1ED00077E3F /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E645AFC2B70BA6D00077E3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E645B302B70C2C900077E3F /* UIFont + Extension.swift in Sources */,
 				7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */,
 				7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */,
+				7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */,
+				7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E645B1E2B70BEEA00077E3F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E645B1D2B70BEEA00077E3F /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7E645B0C2B70BA7100077E3F /* Debug */ = {
@@ -182,7 +327,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +390,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -278,8 +423,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +433,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.esplusnin.MySpar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +457,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +467,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.esplusnin.MySpar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
