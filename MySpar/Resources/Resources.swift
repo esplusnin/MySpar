@@ -6,5 +6,6 @@ enum Resources {
         static let docPlainText = "doc.plaintext"
         static let upload = "square.and.arrow.up"
         static let heart = "heart"
+        static let star = "star.fill"
     }
 }

@@ -19,6 +19,11 @@
 		7E645B322B70C52300077E3F /* GoodDetailNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B312B70C52300077E3F /* GoodDetailNavigationView.swift */; };
 		7E645B352B70C56400077E3F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B342B70C56400077E3F /* Resources.swift */; };
 		7E645B3D2B70D13000077E3F /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B3C2B70D13000077E3F /* SeparatorView.swift */; };
+		7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */; };
+		7E645B442B70FB5200077E3F /* DiscountLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B432B70FB5200077E3F /* DiscountLabelView.swift */; };
+		7E645B462B71003800077E3F /* RatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B452B71003800077E3F /* RatingStackView.swift */; };
+		7E645B492B71035600077E3F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B482B71035600077E3F /* UIConstants.swift */; };
+		7E645B4B2B71062800077E3F /* GoodPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B4A2B71062800077E3F /* GoodPresentationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		7E645B312B70C52300077E3F /* GoodDetailNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDetailNavigationView.swift; sourceTree = "<group>"; };
 		7E645B342B70C56400077E3F /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		7E645B3C2B70D13000077E3F /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodLoyaltyLabel.swift; sourceTree = "<group>"; };
+		7E645B432B70FB5200077E3F /* DiscountLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountLabelView.swift; sourceTree = "<group>"; };
+		7E645B452B71003800077E3F /* RatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStackView.swift; sourceTree = "<group>"; };
+		7E645B482B71035600077E3F /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		7E645B4A2B71062800077E3F /* GoodPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodPresentationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				7E645B172B70BE3B00077E3F /* Localizable */,
 				7E645B072B70BA7100077E3F /* Assets.xcassets */,
 				7E645B342B70C56400077E3F /* Resources.swift */,
+				7E645B482B71035600077E3F /* UIConstants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,18 +176,38 @@
 		7E645B332B70C52700077E3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7E645B362B70CE8400077E3F /* GoodDetailNavigationView */,
+				7E645B3F2B70D4DE00077E3F /* GoodPresentationView */,
+				7E645B3E2B70D4D300077E3F /* NavigationView */,
 				7E645B3C2B70D13000077E3F /* SeparatorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		7E645B362B70CE8400077E3F /* GoodDetailNavigationView */ = {
+		7E645B3E2B70D4D300077E3F /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
 				7E645B312B70C52300077E3F /* GoodDetailNavigationView.swift */,
 			);
-			path = GoodDetailNavigationView;
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		7E645B3F2B70D4DE00077E3F /* GoodPresentationView */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B422B70FB1E00077E3F /* RatingStackView */,
+				7E645B402B70D52100077E3F /* GoodLoyaltyLabel.swift */,
+				7E645B4A2B71062800077E3F /* GoodPresentationView.swift */,
+			);
+			path = GoodPresentationView;
+			sourceTree = "<group>";
+		};
+		7E645B422B70FB1E00077E3F /* RatingStackView */ = {
+			isa = PBXGroup;
+			children = (
+				7E645B432B70FB5200077E3F /* DiscountLabelView.swift */,
+				7E645B452B71003800077E3F /* RatingStackView.swift */,
+			);
+			path = RatingStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,14 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E645B442B70FB5200077E3F /* DiscountLabelView.swift in Sources */,
 				7E645B302B70C2C900077E3F /* UIFont + Extension.swift in Sources */,
 				7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */,
 				7E645B3D2B70D13000077E3F /* SeparatorView.swift in Sources */,
+				7E645B4B2B71062800077E3F /* GoodPresentationView.swift in Sources */,
 				7E645B352B70C56400077E3F /* Resources.swift in Sources */,
 				7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */,
 				7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */,
 				7E645B322B70C52300077E3F /* GoodDetailNavigationView.swift in Sources */,
 				7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */,
+				7E645B462B71003800077E3F /* RatingStackView.swift in Sources */,
+				7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */,
+				7E645B492B71035600077E3F /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

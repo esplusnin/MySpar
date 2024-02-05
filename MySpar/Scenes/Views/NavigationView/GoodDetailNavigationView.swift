@@ -41,7 +41,7 @@ struct GoodDetailNavigationView: View {
             .padding(.horizontal)
             .padding(.vertical, verticalInset)
             
-            SeparatorView()            
+            SeparatorView(isVertical: false)
         }
     }
 }
@@ -54,14 +54,13 @@ struct GoodDetailNavigationView: View {
 private struct NavigationSymbol: ViewModifier {
     
     // MARK: - Constants and Variables:
-    private let symbolsSide: CGFloat = 25
     private let baseFontSize: CGFloat = 60
     
     func body(content: Content) -> some View {
         content
-            .frame(width: symbolsSide,
-                   height: symbolsSide)
-            .font(.system(size: symbolsSide,
+            .frame(width: UIConstants.baseSide,
+                   height: UIConstants.baseSide)
+            .font(.system(size: UIConstants.baseSide,
                           weight: .semibold))
             .foregroundColor(.customGreen)
     }
