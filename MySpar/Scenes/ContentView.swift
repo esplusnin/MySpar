@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  MySpar
-//
-//  Created by Евгений on 05.02.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,7 +5,6 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
         }
         .padding()
