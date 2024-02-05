@@ -1,7 +1,2 @@
-/* 
-  Localizable.strings
-  MySpar
-
-  Created by Евгений on 05.02.2024.
-  
-*/
+// MARK: - Good Loyalty Label:
+"goodLoyaltyLabel.title" = "Цена по карте";
