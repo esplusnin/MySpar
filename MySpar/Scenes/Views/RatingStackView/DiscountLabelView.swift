@@ -7,10 +7,10 @@ struct DiscountLabelView: View {
                 path.move(
                     to: CGPoint(x: 0, y: 0))
                 path.addQuadCurve(
-                    to: CGPoint(x: 50, y: -10),
+                    to: CGPoint(x: 65, y: -10),
                     control: CGPoint(x: 25, y: 10))
                 path.addLine(
-                    to: CGPoint(x: 65, y: 30))
+                    to: CGPoint(x: 75, y: 30))
                 path.addQuadCurve(
                     to: CGPoint(x: 0, y: 30),
                     control: CGPoint(x: 35, y: 45))
@@ -18,10 +18,10 @@ struct DiscountLabelView: View {
             .fill(.customRed)
       
             Text(L10n.DiscountLabelView.title + "%")
-                .offset(x: -168, y: -363)
                 .font(.mediumTitle)
                 .foregroundColor(.customWhite)
         }
+        .frame(width: 70, height: 35)
     }
 }
 

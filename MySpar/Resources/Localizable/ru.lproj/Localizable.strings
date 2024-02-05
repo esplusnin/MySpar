@@ -3,3 +3,7 @@
 
 // MARK: - Discount Label View:
 "discountLabelView.title" = "-5%";
+
+// MARK: - Rating Stack View:
+"ratingStackView.rate" = "4.1";
+"ratingStackView.reviewAmount" = "19 отзывов";

@@ -18,6 +18,12 @@ internal enum L10n {
     /// Цена по карте
     internal static let title = L10n.tr("Localizable", "goodLoyaltyLabel.title", fallback: "Цена по карте")
   }
+  internal enum RatingStackView {
+    /// 4.1
+    internal static let rate = L10n.tr("Localizable", "ratingStackView.rate", fallback: "4.1")
+    /// 19 отзывов
+    internal static let reviewAmount = L10n.tr("Localizable", "ratingStackView.reviewAmount", fallback: "19 отзывов")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

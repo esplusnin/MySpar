@@ -3,18 +3,26 @@ import SwiftUI
 struct SeparatorView: View {
     
     // MARK: - Constants and Variables:
+    private let isVertical: Bool
     private let height: CGFloat = 1
+    private let width: CGFloat = 1
     private let opacity: CGFloat = 0.1
+    
+    // MARK: - Lifecycle:
+    init(isVertical: Bool) {
+        self.isVertical = isVertical
+    }
     
     // MARK: - UI:
     var body: some View {
         Color(.customBlack)
-            .frame(height: height)
+            .frame(maxWidth: isVertical ? width : .greatestFiniteMagnitude,
+                   maxHeight: isVertical ? .greatestFiniteMagnitude : height)
             .background(Color.customGray)
             .opacity(opacity)
     }
 }
 
 #Preview {
-    SeparatorView()
+    SeparatorView(isVertical: true)
 }

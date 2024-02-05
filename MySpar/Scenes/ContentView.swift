@@ -5,7 +5,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-            Text("Hello, world!")
+            Text("Hello, world!")            
         }
         .padding()
         
