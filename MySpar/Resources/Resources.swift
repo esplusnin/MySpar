@@ -7,5 +7,8 @@ enum Resources {
         static let upload = "square.and.arrow.up"
         static let heart = "heart"
         static let star = "star.fill"
+        static let catalog = "rectangle.grid.2x2"
+        static let cart = "cart"
+        static let profile = "person"
     }
 }

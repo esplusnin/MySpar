@@ -37,7 +37,8 @@ struct ReviewView: View {
             
             Button {} label: {
                 Text(L10n.ReviewsListView.makeReview)
-                    .frame(maxWidth: .greatestFiniteMagnitude, maxHeight: buttonHeight)
+                    .frame(maxWidth: .greatestFiniteMagnitude,
+                           minHeight: buttonHeight)
                     .font(.mediumTitle)
                     .foregroundColor(.customGreen)
                     .overlay(
@@ -45,7 +46,7 @@ struct ReviewView: View {
                             .stroke(.customGreen, lineWidth: buttonBorderWidth)
                     )
             }
-            .padding(.horizontal)
+            .padding()
         }
     }
 }

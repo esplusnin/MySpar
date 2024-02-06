@@ -56,6 +56,7 @@ struct PurchaseDetailView: View {
                 SelectionAmountSegmentControlView()
             }
             .padding(.horizontal)
+            .padding(.bottom)
         }
     }
 }
