@@ -60,6 +60,14 @@ internal enum L10n {
     /// ..........................................................................................
     internal static let stumbString = L10n.tr("Localizable", "goodParameters.stumbString", fallback: "..........................................................................................")
   }
+  internal enum PurchaseDetailView {
+    /// ₽/кг
+    internal static let fractional = L10n.tr("Localizable", "purchaseDetailView.fractional", fallback: "₽/кг")
+    /// 55.9
+    internal static let price = L10n.tr("Localizable", "purchaseDetailView.price", fallback: "55.9")
+    /// 199
+    internal static let strikethrough = L10n.tr("Localizable", "purchaseDetailView.strikethrough", fallback: "199")
+  }
   internal enum RatingStackView {
     /// 4.1
     internal static let rate = L10n.tr("Localizable", "ratingStackView.rate", fallback: "4.1")
@@ -81,6 +89,22 @@ internal enum L10n {
     internal static let description = L10n.tr("Localizable", "reviewsView.description", fallback: "Хорошая добавка, мне очень понравилась! Хочу, что бы все добавки были такими!")
     /// Александр В.
     internal static let name = L10n.tr("Localizable", "reviewsView.name", fallback: "Александр В.")
+  }
+  internal enum SelectionAmountView {
+    /// 1 шт
+    internal static let item = L10n.tr("Localizable", "selectionAmountView.item", fallback: "1 шт")
+    /// —
+    internal static let minus = L10n.tr("Localizable", "selectionAmountView.minus", fallback: "—")
+    /// ＋
+    internal static let plus = L10n.tr("Localizable", "selectionAmountView.plus", fallback: "＋")
+    /// 120,0₽
+    internal static let sum = L10n.tr("Localizable", "selectionAmountView.sum", fallback: "120,0₽")
+  }
+  internal enum SelectionType {
+    /// Шт
+    internal static let item = L10n.tr("Localizable", "selectionType.item", fallback: "Шт")
+    /// Кг
+    internal static let kilo = L10n.tr("Localizable", "selectionType.kilo", fallback: "Кг")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

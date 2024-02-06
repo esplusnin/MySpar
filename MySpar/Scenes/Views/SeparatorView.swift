@@ -4,7 +4,6 @@ struct SeparatorView: View {
     
     // MARK: - Constants and Variables:
     private let isVertical: Bool
-    private let height: CGFloat = 1
     private let width: CGFloat = 1
     private let opacity: CGFloat = 0.1
     
@@ -17,7 +16,7 @@ struct SeparatorView: View {
     var body: some View {
         Color(.customBlack)
             .frame(maxWidth: isVertical ? width : .greatestFiniteMagnitude,
-                   maxHeight: isVertical ? .greatestFiniteMagnitude : height)
+                   maxHeight: isVertical ? .greatestFiniteMagnitude : UIConstants.separatorBaseHeight)
             .background(Color.customGray)
             .opacity(opacity)
     }

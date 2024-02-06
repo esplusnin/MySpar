@@ -3,7 +3,6 @@ import SwiftUI
 struct GoodDetailNavigationView: View {
     
     // MARK: - Constants and Variables:
-    private let hStackSpacing: CGFloat = 20
     private let verticalInset: CGFloat = 10
     
     // MARK: - UI:
@@ -18,7 +17,7 @@ struct GoodDetailNavigationView: View {
                 
                 Spacer()
                 
-                HStack(spacing: hStackSpacing) {
+                HStack(spacing: UIConstants.baseSpacing) {
                     Button {} label: {
                         Image(systemName: Resources.Symbols.docPlainText)
                             .resizable()

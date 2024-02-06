@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7E29C7E22B71427600647D9F /* ReviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E12B71427600647D9F /* ReviewCellView.swift */; };
 		7E29C7E52B716CE300647D9F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E42B716CE300647D9F /* ReviewView.swift */; };
+		7E29C7E82B7179CF00647D9F /* TypeSelectionSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E72B7179CF00647D9F /* TypeSelectionSegmentControl.swift */; };
+		7E29C7EA2B717C8700647D9F /* SelectionAmountSegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7E92B717C8700647D9F /* SelectionAmountSegmentControlView.swift */; };
+		7E29C7EC2B7180F800647D9F /* PurchaseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E29C7EB2B7180F800647D9F /* PurchaseDetailView.swift */; };
 		7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B032B70BA6D00077E3F /* MySparApp.swift */; };
 		7E645B062B70BA6D00077E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E645B052B70BA6D00077E3F /* ContentView.swift */; };
 		7E645B0B2B70BA7100077E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E645B0A2B70BA7100077E3F /* Preview Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* Begin PBXFileReference section */
 		7E29C7E12B71427600647D9F /* ReviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCellView.swift; sourceTree = "<group>"; };
 		7E29C7E42B716CE300647D9F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		7E29C7E72B7179CF00647D9F /* TypeSelectionSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionSegmentControl.swift; sourceTree = "<group>"; };
+		7E29C7E92B717C8700647D9F /* SelectionAmountSegmentControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionAmountSegmentControlView.swift; sourceTree = "<group>"; };
+		7E29C7EB2B7180F800647D9F /* PurchaseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDetailView.swift; sourceTree = "<group>"; };
 		7E645B002B70BA6D00077E3F /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E645B032B70BA6D00077E3F /* MySparApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparApp.swift; sourceTree = "<group>"; };
 		7E645B052B70BA6D00077E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +79,16 @@
 				7E29C7E42B716CE300647D9F /* ReviewView.swift */,
 			);
 			path = ReviewView;
+			sourceTree = "<group>";
+		};
+		7E29C7E62B7179B700647D9F /* PurchaseDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7E29C7E72B7179CF00647D9F /* TypeSelectionSegmentControl.swift */,
+				7E29C7E92B717C8700647D9F /* SelectionAmountSegmentControlView.swift */,
+				7E29C7EB2B7180F800647D9F /* PurchaseDetailView.swift */,
+			);
+			path = PurchaseDetailView;
 			sourceTree = "<group>";
 		};
 		7E645AF72B70BA6D00077E3F = {
@@ -193,6 +209,7 @@
 		7E645B332B70C52700077E3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7E29C7E62B7179B700647D9F /* PurchaseDetailView */,
 				7E645B3F2B70D4DE00077E3F /* GoodPresentationView */,
 				7E645B3E2B70D4D300077E3F /* NavigationView */,
 				7E29C7E32B716C8800647D9F /* ReviewView */,
@@ -352,12 +369,15 @@
 				7E645B352B70C56400077E3F /* Resources.swift in Sources */,
 				7E645B042B70BA6D00077E3F /* MySparApp.swift in Sources */,
 				7E645B202B70BF4100077E3F /* Strings+Generated.swift in Sources */,
+				7E29C7EA2B717C8700647D9F /* SelectionAmountSegmentControlView.swift in Sources */,
 				7E29C7E22B71427600647D9F /* ReviewCellView.swift in Sources */,
 				7E645B322B70C52300077E3F /* GoodDetailNavigationView.swift in Sources */,
 				7E645B4F2B71316D00077E3F /* GoodParametersView.swift in Sources */,
 				7E645B282B70C10E00077E3F /* XCAssets+Generated.swift in Sources */,
 				7E645B462B71003800077E3F /* RatingStackView.swift in Sources */,
 				7E645B412B70D52100077E3F /* GoodLoyaltyLabel.swift in Sources */,
+				7E29C7E82B7179CF00647D9F /* TypeSelectionSegmentControl.swift in Sources */,
+				7E29C7EC2B7180F800647D9F /* PurchaseDetailView.swift in Sources */,
 				7E29C7E52B716CE300647D9F /* ReviewView.swift in Sources */,
 				7E645B4D2B7108DF00077E3F /* GoodDescriptionView.swift in Sources */,
 				7E645B492B71035600077E3F /* UIConstants.swift in Sources */,
