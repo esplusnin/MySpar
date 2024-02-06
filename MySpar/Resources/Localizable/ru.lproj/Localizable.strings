@@ -54,3 +54,10 @@
 "purchaseDetailView.price" = "55.9";
 "purchaseDetailView.fractional" = "₽/кг";
 "purchaseDetailView.strikethrough" = "199";
+
+// MARK: - TabView:
+"tabView.main" = "Главная";
+"tabView.catalog" = "Каталог";
+"tabView.cart" = "Корзина";
+"tabView.profile" = "Профиль";
+

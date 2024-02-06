@@ -106,6 +106,16 @@ internal enum L10n {
     /// Кг
     internal static let kilo = L10n.tr("Localizable", "selectionType.kilo", fallback: "Кг")
   }
+  internal enum TabView {
+    /// Корзина
+    internal static let cart = L10n.tr("Localizable", "tabView.cart", fallback: "Корзина")
+    /// Каталог
+    internal static let catalog = L10n.tr("Localizable", "tabView.catalog", fallback: "Каталог")
+    /// Главная
+    internal static let main = L10n.tr("Localizable", "tabView.main", fallback: "Главная")
+    /// Профиль
+    internal static let profile = L10n.tr("Localizable", "tabView.profile", fallback: "Профиль")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
