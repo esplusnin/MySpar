@@ -17,6 +17,7 @@ struct GoodParametersView: View {
                 
                 Spacer()
             }
+            .padding(.bottom)
             
             HStack(alignment: .firstTextBaseline) {
                 Text(L10n.GoodParameters.production)

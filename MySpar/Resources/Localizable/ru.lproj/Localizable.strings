@@ -35,7 +35,22 @@
 "reviewsListView.allReviews" = "Все 152";
 "reviewsListView.makeReview" = "Оставить отзыв";
 
-// MARK: - Review
+// MARK: - Review:
 "reviewsView.name" = "Александр В.";
 "reviewsView.date" = "7 мая 2021";
 "reviewsView.description" = "Хорошая добавка, мне очень понравилась! Хочу, что бы все добавки были такими!";
+
+// MARK: - TypeSelectionSegmentControl:
+"selectionType.kilo" = "Кг";
+"selectionType.item" = "Шт";
+
+// MARK: - SelectionAmountSegmentControl View:
+"selectionAmountView.minus" = "—";
+"selectionAmountView.plus" = "＋"; 
+"selectionAmountView.item" = "1 шт";
+"selectionAmountView.sum" = "120,0₽";
+
+// MARK: - PurchaseDetailView:
+"purchaseDetailView.price" = "55.9";
+"purchaseDetailView.fractional" = "₽/кг";
+"purchaseDetailView.strikethrough" = "199";

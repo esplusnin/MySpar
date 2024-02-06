@@ -2,20 +2,17 @@ import SwiftUI
 
 struct GoodDescriptionView: View {
     
-    // MARK: - Constants and Variables:
-    private let spacing: CGFloat = 15
-    private let baseSide: CGFloat = 20
-    
     // MARK: - UI:
     var body: some View {
-        VStack(alignment: .leading, spacing: spacing) {
+        VStack(alignment: .leading, spacing: UIConstants.baseSpacing) {
             Text(L10n.GoodDescriptionView.title)
                 .font(.largeBoldTitle)
             
             HStack {
                 Image(.spain)
                     .resizable()
-                    .frame(width: baseSide, height: baseSide)
+                    .frame(width: UIConstants.baseSide,
+                           height: UIConstants.baseSide)
                     .clipShape(.circle)
                 
                 Text(L10n.GoodDescriptionView.country)

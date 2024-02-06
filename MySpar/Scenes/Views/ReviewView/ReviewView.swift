@@ -3,7 +3,6 @@ import SwiftUI
 struct ReviewView: View {
     
     // MARK: - Constants and Variables:
-    private let gridSpacing: CGFloat = 30
     private let buttonHeight: CGFloat = 40
     private let buttonCornerRadius: CGFloat = 20
     private let buttonBorderWidth: CGFloat = 3
@@ -28,7 +27,7 @@ struct ReviewView: View {
             .padding(.horizontal)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                LazyHGrid(rows: [gridItem], spacing: gridSpacing) {
+                LazyHGrid(rows: [gridItem], spacing: UIConstants.baseSpacing) {
                     ForEach(0..<10) { _ in
                         ReviewCellView()
                     }

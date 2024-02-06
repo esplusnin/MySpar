@@ -7,7 +7,7 @@ struct ContentView: View {
             GoodDetailNavigationView()
             
             ScrollView {
-                VStack(spacing: 20) {
+                VStack(spacing: UIConstants.baseSpacing) {
                     GoodPresentationView()
                     
                     GoodDescriptionView()
@@ -15,6 +15,8 @@ struct ContentView: View {
                     GoodParametersView()
                     
                     ReviewView()
+                    
+                    PurchaseDetailView()
                 }
             }
         }
